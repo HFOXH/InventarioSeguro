@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Almacenamiento</string>
+    <string name="Titulo1_1">Inventario <br /> Seguro</string>
+    <string name="Pregunta1">¿No tienes cuenta?</string>
+    <string name="Pregunta2">Creala Aquí</string>
+    <string name="BttnA1">Iniciar Sesión</string>
+    <string name="Name">Nombre</string>
+    <string name="email">Correo</string>
+    <string name="Password">Ingrese Contraseña</string>
+    <string name="Valid_Password">Repita Contraseña</string>
+    <string name="Sign_in">Resistrarse</string>
+    <string name="SingUp">Ingresar</string>
+</resources>
