@@ -3,6 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/activity_crear_usuario.xml" value="0.25" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/activity_panel.xml" value="0.33" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/activity_panelt.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/activity_principal.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/app_bar_panelt.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/content_panelt.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/fragment_blank.xml" value="0.21" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/fragment_chat.xml" value="0.5" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/fragment_chat2.xml" value="0.67" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/fragment_gallery.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/fragment_gps.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/fragment_team.xml" value="0.33" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/layout/nav_header_panelt.xml" value="0.2540983606557377" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="..\:/Users/Santiago P/AndroidStudioProjects/InventarioSeguro-main/Inventario/app/src/main/res/menu/panelt.xml" value="0.2" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Almacenamiento/app/src/main/res/layout/activity_crear_usuario.xml" value="0.15" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Almacenamiento/app/src/main/res/layout/activity_login.xml" value="0.14" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Almacenamiento/app/src/main/res/layout/activity_main.xml" value="0.2" />

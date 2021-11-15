@@ -21,7 +21,7 @@ public class Login extends AppCompatActivity {
 
     }
 
-    public void SingUp (View view){
+    /*public void SingUp (View view){
 
         Intent SingUp = new Intent(this, Principal.class);
 
@@ -30,6 +30,12 @@ public class Login extends AppCompatActivity {
 
         startActivity(SingUp);
 
+    }*/
+    public void goToPanel (View view){
+
+        Intent intentPanel = new Intent(this, Panelt.class);
+
+        startActivity(intentPanel);
     }
 
 

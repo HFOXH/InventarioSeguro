@@ -42,7 +42,7 @@
         android:backgroundTint="#1FD500"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:onClick="SingUp"
+        android:onClick="goToPanel"
         android:text="@string/SingUp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
