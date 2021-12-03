@@ -1,4 +1,4 @@
-package com.practica.almacenamiento;
+/*package com.practica.almacenamiento;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.practica.almacenamiento.BaseDeDatos.DBEquipament;
 
-public class UpDateEquipament extends AppCompatActivity {
+public class UpdateEquip extends AppCompatActivity {
 
     private int idEquipament;
     private DBEquipament DBconection;
@@ -24,12 +24,12 @@ public class UpDateEquipament extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_up_date_equipament);
+        setContentView(R.layout.activity_update_equip);
 
-        NameE = findViewById(R.id.Tx_NameUpDate);
-        DescripE = findViewById(R.id.Tx_DescripUpDate);
-        CantE = findViewById(R.id.Tx_CantUpDate);
-        PreciE = findViewById(R.id.Tx_PrecioUpDate);
+        NameE = findViewById(R.id.Tx_NameUpDat);
+        DescripE = findViewById(R.id.Tx_DescripUpDat);
+        CantE = findViewById(R.id.Tx_CantUpDat);
+        PreciE = findViewById(R.id.Tx_PrecioUpDat);
 
         idEquipament = getIntent().getIntExtra("Equip",0);
         ChargeEquip();
@@ -84,9 +84,9 @@ public class UpDateEquipament extends AppCompatActivity {
                 int rows = DBconection.deleteData(tabla, whereClause, params);
 
                 if (rows > 0) {
-                    Toast.makeText(UpDateEquipament.this, "Equipo eliminado", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(UpdateEquip.this, "Equipo eliminado", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(UpDateEquipament.this, "No se pudo eliminar el Equipo", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(UpdateEquip.this, "No se pudo eliminar el Equipo", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -108,4 +108,4 @@ public class UpDateEquipament extends AppCompatActivity {
 
     }
 
-}
+}*/

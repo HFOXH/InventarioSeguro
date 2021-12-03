@@ -1,8 +1,11 @@
 package com.practica.almacenamiento;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -24,6 +27,9 @@ public class Panelt extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        SharedPreferences User_On =getSharedPreferences("UserOn", Context.MODE_PRIVATE);
+        Toast.makeText(this, "Bienvenido" +"  "+ User_On.getString("name", ""), Toast.LENGTH_LONG).show();
 
         binding = ActivityPaneltBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
