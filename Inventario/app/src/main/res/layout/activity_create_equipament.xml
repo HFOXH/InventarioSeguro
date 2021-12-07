@@ -4,7 +4,11 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+<<<<<<< HEAD
 android:background="@drawable/crear_equipos"
+=======
+android:background="@drawable/fondo_crear_usuario"
+>>>>>>> 497d4af9414d2554649982fd8ce894733fa2a1ee
 tools:context=".CreateEquipament">
 
 <LinearLayout

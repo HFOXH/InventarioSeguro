@@ -113,6 +113,7 @@ public class ListViewEquipament extends AppCompatActivity {
 
     }
 
+<<<<<<< HEAD
     public void goToGPS(View view){
 
         Intent goToGPS = new Intent(this, GPSActivity.class);
@@ -120,4 +121,6 @@ public class ListViewEquipament extends AppCompatActivity {
 
     }
 
+=======
+>>>>>>> 497d4af9414d2554649982fd8ce894733fa2a1ee
 }

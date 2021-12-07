@@ -41,5 +41,8 @@
     <string name="Bttn_Delete">Eliminar Equipo </string>
     <string name="BackEquip">Volver a Equipos</string>
     <string name="UpDate_Delete">Eliminar o<br /> Actualizar equipos</string>
+<<<<<<< HEAD
     <string name="title_activity_gpsactivity">GPSActivity</string>
+=======
+>>>>>>> 497d4af9414d2554649982fd8ce894733fa2a1ee
 </resources>
