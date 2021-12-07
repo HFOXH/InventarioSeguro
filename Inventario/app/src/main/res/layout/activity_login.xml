@@ -7,32 +7,33 @@
     android:background="@drawable/fondo_login_completo"
     tools:context=".Login">
 
-    <EditText
-        android:id="@+id/TxCL"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/email"
-        android:inputType="textPersonName"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.524" />
+        app:layout_constraintVertical_bias="0.6">
 
-    <EditText
-        android:id="@+id/TxPL"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:ems="10"
-        android:hint="@string/Password"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TxCL" />
+        <EditText
+            android:id="@+id/TxCL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/TxPL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/Password"
+            android:inputType="textPassword" />
+    </LinearLayout>
 
     <Button
         android:id="@+id/button3"
@@ -42,7 +43,7 @@
         android:backgroundTint="#1FD500"
         android:insetLeft="6dp"
         android:insetRight="6dp"
-        android:onClick="goToPanel"
+        android:onClick="SingIn"
         android:text="@string/SingUp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,4 +52,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TxPL"
         app:layout_constraintVertical_bias="0.904" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,6 +30,28 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".GPSActivity"
+            android:exported="false"
+            android:label="@string/title_activity_gpsactivity" />
+        <activity
+            android:name=".EquipUpD"
+            android:exported="false" />
+        <activity
+            android:name=".EquipUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateEquip"
+            android:exported="false" />
+        <activity
+            android:name=".CreateEquipament"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewEquipament"
+            android:exported="false" />
+        <activity
+            android:name=".ListEquipament"
+            android:exported="false" />
+        <activity
             android:name=".Panelt"
             android:exported="false"
             android:label="@string/title_activity_panelt"
